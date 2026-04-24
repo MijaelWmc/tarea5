@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            document.getElementById("btnConfirmar").addEventListener("click", function() {
+                window.open("https://www.gob.bo/", "_blank");
+                var confirmModal = bootstrap.Modal.getInstance(document.getElementById("confirmModal"));
+                confirmModal.hide();        
+                });
+            });
+    </script>
+    <style>
+        .modal{
+            --bs-modal-bg: #198754; /* fondo del modal */
+            --bs-modal-color: #FFFFFF; /* color del texto del modal */
+            --bs-modal-border-color: #198754; /* borde del modal */
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid p-0 m-0">  
+        <div class="row row-cols-3 g-0">
+            <div class="col-12 bg-primary py-4 m-0">
+                <h1 class="text-center text-white m-0 p-0">CONTACTOS</h1>
+            </div>
+            <div class="col-12">
+                <nav class="navbar navbar-expand-lg p-0 m-0">
+                    <div class="container-fluid bg-primary-subtle p-2">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse p-2 d-flex justify-content-center" id="navbarNavDropdown">
+                            <ul class="navbar-nav d-flex justify-content-center flex-wrap gap-5">
+                                <img src="../img/Ptpigsatwork2015.jpg" class="img-fluid" style="height: 10%; width:10%;" alt="">
+                                <li class="nav-item m-0">
+                                    <a class="nav-link text-center text-white px-2 py-1" href="../index.html">Inicio</a>
+                                </li>
+                                <li class="nav-item m-0">
+                                    <a class="nav-link text-center text-white px-2 py-1" href="pag1.html">Historia</a>
+                                </li>
+                                <li class="nav-item m-0">
+                                    <a class="nav-link text-center text-white px-2 py-1" href="pag2.html">Derechos Laborales</a>
+                                </li>
+                                <li class="nav-item m-0">
+                                    <a class="nav-link text-center text-white px-2 py-1" href="pag3.html">Galeria</a>
+                                </li>
+                                <li class="nav-item m-0">
+                                    <a class="nav-link text-center text-white px-2 py-1" href="pag4.html">Personajes Bolivianos</a>
+                                </li>
+                                <li class="nav-item m-0">
+                                    <a class="nav-link text-center text-white px-2 py-1" href="pag5.html">Feriado en Bolivia</a>
+                                </li>
+                                <li class="nav-item m-0">
+                                    <a class="nav-link text-center text-white active px-2 py-1" aria-current="page" href="#">Contacto</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="col-9 bg-info">
+                <h3 class="text-center text-white m-0 pt-4"><u>CONTACTOS</u></h3>
+                <p class="text-white text-wrap m-0 pt-3 px-5 pb-3" style="text-align: justify;">La sección de contactos permite a los usuarios comunicarse fácilmente para realizar consultas, obtener más información o brindar sugerencias. A través de distintos medios como correo electrónico o redes sociales, se busca mantener una conexión directa y accesible, facilitando la interacción y el intercambio de información.</p>
+                <div class="row row-cols-2 g-3">
+                    <div class="col-6">
+                        <iframe class="img-fluid"style="position:relative; left:50px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7649.993469122836!2d-68.1536164878862!3d-16.526262499999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x915edf634abee163%3A0xf97ecccc2e620d9e!2sMinisterio%20De%20Trabajo!5e0!3m2!1ses!2sbo!4v1776988785761!5m2!1ses!2sbo" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="col-6">
+                        <h5 class="text-center text-white m-0 pt-4"><u>DIRECCION</u></h5>
+                        <p class="text-white text-wrap m-0 pt-3 px-5" style="text-align: justify;">Av Alfredo Sanjines Calle A Nro: N/A Ciudad Satelite, El Alto, Bolivia.</p>
+                        <p class="text-white text-wrap m-0 px-5" style="text-align: justify;"><strong>Telefono: </strong>22829553</p>
+                    </div>
+                </div>
+                <h5 class="text-left text-white m-0 py-4" style="position:relative; left:100px;"><u>REDES SOCIALES</u></h5>
+                <div class="container-fluid">
+                    <a href="https://mintrabajo.gob.bo/" target="_blank"><img class="img-fluid pb-4" style="position:relative; left:50px; height: 7.5%; width: 2.5%;" src="../img/google.png"></img></a>
+                    <a href="https://www.youtube.com/channel/UCOkG2Z3RbGZ96Fv5B9g8yNQ" target="_blank"><img class="img-fluid pb-4" style="position:relative; left:100px; height: 7.5%; width: 2.5%;" src="../img/you.png"></img></a>
+                    <a href="https://www.facebook.com/MinTrabajoBo/" target="_blank"><img class="img-fluid pb-4" style="position:relative; left:150px; height: 7.5%; width: 2.5%;" src="../img/face.png"></img></a>
+                </div>
+            </div>
+            <div class="col-3 bg-success">
+                
+                <div class="d-flex justify-content-center py-3">
+                    <div class="card" style="width: 15rem;">
+                        <img src="../img/logo2.jpg"  class="card-img-top" alt="...">
+                        <div class="card-body bg-info">
+                            <h5 class="card-title text-center text-white"><u>GOB.BO</u></h5>
+                            <p class="card-text text-white">Pagina oficial del gobierno de Bolivia que recopila todas las paginas oficiales del gobierno.</p>
+                            <a data-bs-toggle="modal" data-bs-target="#confirmModal" target="_blank" class="btn btn-primary d-flex justify-content-center">Mas Información</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 bg-primary py-4 m-0">
+                <h1 class="text-center text-white m-0 p-0">MIJAEL WILMER MARTINEZ CONTRERAS</h1>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="confirmModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Confirmación</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p>¿Seguro que quieres salir a ver las otras paginas del gobierno?</p>
+                </div> 
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" id="btnConfirmar">
+                        Sí
+                    </button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                        No
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
